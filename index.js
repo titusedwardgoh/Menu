@@ -136,7 +136,6 @@ function renderOrderedItems(){
                     <div class="total-item-price">$${price*count}</div>
             </div>
                     `
-            totalPrice+=price*count
         })
 
         document.getElementById("your-order").innerHTML=htmlString
