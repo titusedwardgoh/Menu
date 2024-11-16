@@ -112,10 +112,7 @@ menuArray.forEach((item)=>{
 
 function renderOrderedItems(){
     let totalPrice = 0
-    orderedItems.forEach((item)=>{
-        totalPrice += item.price*item.count
-    })
-
+   
     if (orderedItems.length===0 || totalPrice ===0 ){
         orderedItemsEl.classList.add("hidden")
         return
