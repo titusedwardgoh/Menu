@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="banner" src="./banner.jpg" alt="image of juicy burger">
+            <div class="title-text">
+                <div id="title">Jimmy's Diner</div>
+                <div id="tagline">The best burgers and pizzas in town.</div>
+            </div>
+        </header>
+            <section id="menu">
+            </section>
+            <section id="ordered-items" class="ordered-items hidden">
+                <div id="your-order">Your Order</div>
+                <div class="total-price"><div>Total Price:</div> <div class="total-price-dollars">$54</div></div>
+                <button class="complete-order">Complete order</button>
+            </section>
+            <section id="payment">
+                <div id="modal" class="modal hidden" >
+                    <button id="close-button">X</button>
+                    <div id="card-details">Enter card details</div>
+                    <form>
+                        <input id = "inputName" name="name" type="text" placeholder="Enter your name" required>
+                        <input type="number" placeholder="Enter card number" required>
+                        <input type="number" placeholder="Enter CVV" required>
+                        <button class="submit-button" type="submit">Pay</button>
+                    </form>
+                </div>
+            </section>
+            <section id="complete" class = "complete hidden">
+                <div class="thankyou">Thanks, James! Your order is on its way!</div>
+            </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

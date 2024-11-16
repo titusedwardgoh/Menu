@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    width:600px;
+    margin: 0px auto;
+    height:167px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#banner {
+    width:600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;    
+}
+
+#title {
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+#tagline {
+    font-size: 22px;
+}
+
+#menu {
+    width:508px;
+    margin: 0px auto;
+}
+
+.item-add {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #DEDEDE ;
+    background: white;
+    font-size: 20px;
+    color: gray;
+    font-weight: 10px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    height:140px;
+    border-bottom: 1px solid #DEDEDE;
+    align-items: center;
+    justify-content: right;
+    margin: 20px auto;
+}
+
+.item-icon {
+    width:120px;
+    font-size: 70px;
+}
+
+.item-title {
+    font-size: 28px;
+}
+
+.item-ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.item-price {
+    font-size: 20px;
+}
+
+.ordered-items {
+    width:508px;
+    margin: 0px auto;
+    display: block;
+}
+
+.added-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    margin: 20px auto;
+    height: 40px;
+}
+
+#your-order {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.added-item-container button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #DEDEDE ;
+    color: gray;
+    margin: auto 20px auto 0px;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.complete-order {
+    width:508px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: #16DB99;
+    border:none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.total-price {
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.multiplier {
+    width:30px;
+    margin-left: 20px;
+}
+
+.added-item {
+    width: 40px;
+    margin-right:50px;
+}
+
+.total-item-price {
+    margin-left: auto;
+    width: 30px;
+}
+
+.total-price {
+    font-size: 28px;
+}
+
+
+.submit-button {
+    width:475px;
+    height: 75px;
+    margin: 30px ;
+    background-color: #16DB99;
+    border:none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    width:542px;
+    height: 524px;
+    box-shadow: 10px 20px 120px grey;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    z-index: 100;
+    background-color: white;
+    text-align: center;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    width:475x;
+    height: 71px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#card-details {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 20px;
+  }
+
+  #close-button {
+    position: absolute;
+    top: 15px;
+    right:20px;
+    border: none;
+    width:30px;
+    height: 30px;
+    background-color: rgb(145, 175, 164);
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+  
+
+
+.thankyou {
+    width:504px;
+    height: 120px;
+    color: #065F46;
+    background-color: #ECFDF5;
+    margin: auto;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.hidden {
+    display: none;
+}
